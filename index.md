@@ -4,6 +4,7 @@ layout: col-sidebar
 title: OWASP docker top 10
 tags: example-tag
 level: 4
+type: documentation
 
 ---
 
