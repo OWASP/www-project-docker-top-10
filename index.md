@@ -1,165 +1,54 @@
 ---
 
 layout: col-sidebar
-title: OWASP docker top 10
+title: OWASP Docker Top 10
 tags: example-tag
 level: 0
 type: documentation
 
 auto-migrated: 1
+auto-migrated: 1
+
 ---
 
-This is an example of a Project or Chapter Page.
-<div style="width:100%;height:160px;border:0,margin:0;overflow: hidden;">
 
-![OWASP_Project_Header.jpg](OWASP_Project_Header.jpg
-"OWASP_Project_Header.jpg")
+<!-- Standard Chapter Page Template
+This is an example of a Project or Chapter page.
+Please change these items to indicate the actual information you wish to present. In addition to this information, the 'front-matter' above the text should be modified to reflect your actual information.  An explanation of each of the front-matter items is below:
 
-</div>
+{front matter for this file}
 
-<table>
-<tbody>
-<tr class="odd">
-<td><h2 id="about_docker_top_10">About Docker Top 10</h2>
-<p>The OWASP Docker Top 10 project is giving you ten bullet points to plan and implement a secure docker container environment. Those 10 points are ordered by relevance. They don't represent risks as each single point in the OWASP Top 10, they represent security controls. The controls range from baseline security to more advanced controls, depending on your security requirements.</p>
-<p>The OWASP Docker Top 10 project is giving you ten bullet points to plan and implement a secure docker container environment. Those 10 points are ordered by relevance. They don't represent risks as each single point in the OWASP Top 10, they represent security controls. The controls range from baseline security to more advanced controls, depending on your security requirements.</p>
-<p>You should use it as a</p>
-<p>You should use it as a</p>
-<ul>
-<ul>
-<li>guidance in the design phase as a system specification or</li>
-<li>guidance in the design phase as a system specification or</li>
-<li>for auditing a docker environment,</li>
-<li>for auditing a docker environment,</li>
-<li>also for procurement it could provide a basis for specifying requirements in contracts.</li>
-<li>also for procurement it could provide a basis for specifying requirements in contracts.</li>
-</ul>
-</ul>
-<h2 id="description">Description</h2>
-<h2 id="description">Description</h2>
-<p><span style="color:#ff0000"></p>
-<p><span style="color:#ff0000"></p>
-<p>This guide is for developers, auditors, architects, system and networking engineers. As indicated above you can also use this guide for externals to add formal technical requirements in your contract. The information security officer should have some interest too to meet security requirements.</p>
-<p>This guide is for developers, auditors, architects, system and networking engineers. As indicated above you can also use this guide for externals to add formal technical requirements in your contract. The information security officer should have some interest too to meet security requirements.</p>
-<p>The 10 bullet points here are about system and network security and also architecture. As a developer you don't have to be an expert in those -- that's what this guide is for. But as indicated above best is to start thinking about those points early. Please do not just start building it.</p>
-<p>The 10 bullet points here are about system and network security and also architecture. As a developer you don't have to be an expert in those -- that's what this guide is for. But as indicated above best is to start thinking about those points early. Please do not just start building it.</p>
-<p>Security in Docker environments seemed often to be misunderstood. It was/is a highly disputed matter what the threats are supposed to be. So before diving into the Docker Top 10 bullet points, the threads are modeled. It not only helps understanding the security impacts but also gives you the ability to prioritize your task.</p>
-<p>Security in Docker environments seemed often to be misunderstood. It was/is a highly disputed matter what the threats are supposed to be. So before diving into the Docker Top 10 bullet points, the threads are modeled. It not only helps understanding the security impacts but also gives you the ability to prioritize your task.</p>
-<p></span
-<p></span
+```
+- layout: This is the layout used by project and chapter pages.  You should leave this value as col-sidebar
+- title: This is the title of your project or chapter page, usually the name.  For example, OWASP Zed Attack Proxy or OWASP Baltimore
+- tags: This is a space-delimited list of tags you associate with your project or chapter.  If you are using tabs, at least one of these tags should be unique in order to be used in the tabs files (an example tab is included in this repo) 
+- region: This is the region you are in according to our data
+```
 
+{copy for this file (index.md)}
+Replace the text above the commented area with your information in the format below:
+```
+## Welcome
+Include some information here about your chapter
 
-== Why not "Container Security" ==
-== Why not "Container Security" ==
+## Participation
+The Open Web Application Security Project (OWASP) is a nonprofit foundation that works to improve the security of software. All of our projects ,tools, documents, forums, and chapters are free and open to anyone interested in improving application security. 
 
+Chapters are led by local leaders in accordance with the [Chapter Leader Handbook](/www-policy/rules-of-procedure/chapter-handbook). Financial contributions should only be made online using the authorized online donation button. To be a SPEAKER at ANY OWASP Chapter in the world simply review the [speaker agreement](/www-policy/speaker-agreement) and then contact the local chapter leader with details of what OWASP Project, independent research, or related software security topic you would like to present.
 
-Albeit the name of this project carries the word "Docker", it also can be used with little abstraction for other containment solutions. Docker is as of now the most popular one, so the in-depth details are focusing for now on Docker. This could change later.
-Albeit the name of this project carries the word "Docker", it also can be used with little abstraction for other containment solutions. Docker is as of now the most popular one, so the in-depth details are focusing for now on Docker. This could change later.
+Everyone is welcome and encouraged to participate in our [Projects](/projects), [Local Chapters](/chapters), [Events](/events), [Online Groups](https://groups.google.com/a/owasp.com/){:target='_blank'}, and [Community Slack Channel](https://owasp.slack.com/){:target='_blank'}. We especially encourage diversity in all our initiatives. OWASP is a fantastic place to learn about application security, to network, and even to build your reputation as an expert. We also encourage you to be [become a member](/membership) or consider a [donation](/donate) to support our ongoing work.
 
+## Local News
+- Meeting Location
+- Everyone is welcome to join us at our chapter meetings.
 
-== A single container? ==
-== A single container? ==
+```
+{info.md}
 
+This separate file is where you should place links to your Google Group and Meetup page. It will be automatically rendered in the column sidebar.
 
-If you run more than 3 containers you probably have an orchestration solution to manage them. '''Specific''' security pitfalls of those are currently beyond the scope of this document. That doesn't mean that this guide just looking at one or a few containers managed manually -- on the contrary. It means only that we're looking at the containers including their networking and their host systems in such an orchestrated environment and not on special pitfalls of e.g. ''Kubernetes'', ''Swarm'', ''Mesos'' or'' OpenShift''.
-If you run more than 3 containers you probably have an orchestration solution to manage them. '''Specific''' security pitfalls of those are currently beyond the scope of this document. That doesn't mean that this guide just looking at one or a few containers managed manually -- on the contrary. It means only that we're looking at the containers including their networking and their host systems in such an orchestrated environment and not on special pitfalls of e.g. ''Kubernetes'', ''Swarm'', ''Mesos'' or'' OpenShift''.
+{leaders.md}
 
+Another separate file that should simply include each leaders name with mailto link as a list. It will also be automatically rendered in the column sidebar.
 
-
-
-==Licensing==
-==Licensing==
-
-
-The Docker OWASP Top 10 document is licensed under the [https://creativecommons.org/licenses/by-nc-sa/4.0/ Creative Commons Attribution-ShareAlike 4.0 license] (CC BY-NC-SA 4.0). Some rights reserved.
-The Docker OWASP Top 10 document is licensed under the [https://creativecommons.org/licenses/by-nc-sa/4.0/ Creative Commons Attribution-ShareAlike 4.0 license] (CC BY-NC-SA 4.0). Some rights reserved.
-
-
-[[File:CC-BY-SA-NC.4.0.size88x31.png|link=https://creativecommons.org/licenses/by-nc-sa/4.0/]]
-[[File:CC-BY-SA-NC.4.0.size88x31.png|link=https://creativecommons.org/licenses/by-nc-sa/4.0/]]
-
-
-==Roadmap==
-==Roadmap==
-As of <strong>November 2018</strong>, the highest priorities for the next 2 months are: <strong></p>
-As of <strong>November 2018</strong>, the highest priorities for the next 2 months are: <strong></p>
-<ul>
-<ul>
-<li>Publish and work on a first draft of the documentation</li>
-<li>Publish and work on a first draft of the documentation</li>
-<li>Complete this first draft</li>
-<li>Complete this first draft</li>
-<li>Get other people involved to review the documentation and provide feedback</li>
-<li>Get other people involved to review the documentation and provide feedback</li>
-<li>Incorporate feedback into the documentation</li>
-<li>Incorporate feedback into the documentation</li>
-<li>First Release</li>
-<li>First Release</li>
-</ul>
-</ul>
-<p></strong></p>
-<p></strong></p>
-<p>Subsequent Releases will add <strong></p>
-<p>Subsequent Releases will add <strong></p>
-<ul>
-<ul>
-<li>Go from Draft to Release</li>
-<li>Go from Draft to Release</li>
-<li>Being promoted from an Incubator Project to a Lab Project</li>
-<li>Being promoted from an Incubator Project to a Lab Project</li>
-</ul>
-</ul>
-<p></strong></p>
-<p></strong></p>
-<h2 id="getting_involved">Getting Involved</h2>
-<h2 id="getting_involved">Getting Involved</h2>
-<p>For all communication, releases and more please use <a href="https://github.com/OWASP/Docker-Security">Github</a></p></td>
-<p>For all communication, releases and more please use <a href="https://github.com/OWASP/Docker-Security">Github</a></p></td>
-<p><strong>Github</strong><br />
-* Actions take place @ <a href="https://github.com/OWASP/Docker-Security">Github</a><br />
-<strong>Slides</strong><br />
-* Dirk Wetter: (<a href="https://www.owasp.org/images/8/81/Dirk_Wetter_-_Docker_Top10-HH.pdf">long version</a>), (<a href="https://www.owasp.org/images/7/7e/Dirk_Wetter_-_Docker_Security_GOD2018.pdf">short version @ German OWASP Day 2018</a>),</p>
-<ul>
-<li>Dirk Wetter, older talks from <a href="https://www.owasp.org/images/1/17/Dirk_Wetter_-_Docker_Security_Brussels.pdf">Belgium Chapter Meeting</a>, <a href="https://2018.appsec.eu/presos/DevOps_Docker_201_Security_Dirk-Wetter_AppSecEU2018.pdf">OWASP AppSec Europe 2018</a></li>
-</ul>
-<ul>
-<li>Jack Mannino and Abdullah Munawar: <a href="https://2018.appsec.eu/presos/DevOps_Securing-Containers_Jack-Mannino_Abdullah-Munawar_AppSecEU2018.pptx">Slides of Presentation</a> at OWASP AppSec Europe 2018</li>
-</ul>
-<h2 id="project_leader">Project Leader</h2>
-<p>Dirk Wetter</p>
-<h2 id="related_projects">Related Projects</h2>
-<p>--</p>
-<ul>
-<li><a href="OWASP_Code_Project_Template" title="wikilink">OWASP_Code_Project_Template</a></li>
-<li><a href="OWASP_Tool_Project_Template" title="wikilink">OWASP_Tool_Project_Template</a></li>
-</ul>
-<p>--?</p>
-<h2 id="classifications">Classifications</h2>
-<table>
-<tbody>
-<tr class="odd">
-<img src="Project_Type_Files_DOC.jpg" title="Project_Type_Files_DOC.jpg" alt="Project_Type_Files_DOC.jpg" /><figcaption>Project_Type_Files_DOC.jpg</figcaption>
-</figure></td>
-</tr>
-<tr class="even">
-<img src="Owasp-incubator-trans-85.png" title="Owasp-incubator-trans-85.png" alt="Owasp-incubator-trans-85.png" /><figcaption>Owasp-incubator-trans-85.png</figcaption>
-</figure></td>
-</tr>
-<tr class="odd">
-<img src="Owasp-defenders-small.png" title="Owasp-defenders-small.png" alt="Owasp-defenders-small.png" /><figcaption>Owasp-defenders-small.png</figcaption>
-</figure></td>
-</tr>
-<tr class="even">
-<img src="Creative%20Commons.png" title="Creative%20Commons.png" alt="Creative%20Commons.png" width="90" /><figcaption>Creative%20Commons.png</figcaption>
-</figure></td>
-</tr>
-</tbody>
-</table></td>
-</tr>
-</tbody>
-</table>
-
-__NOTOC__ <headertabs />
-
-[Category:OWASP Project](Category:OWASP_Project "wikilink")
-[Category:OWASP_Document](Category:OWASP_Document "wikilink")
+-->
