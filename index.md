@@ -41,10 +41,11 @@ If you run more than 3 containers you probably have an orchestration solution to
 
 ## Licensing
 
-[![license](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg)](https://github.com/OWASP/Docker-Security/blob/master/License.md)
-
 The Docker OWASP Top 10 document is licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/), the Creative Commons
 Attribution-ShareAlike 4.0 license. Some rights reserved.
+
+[![license](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg)](https://github.com/OWASP/Docker-Security/blob/master/License.md)
+
 
 
 ## Roadmap
@@ -63,7 +64,7 @@ Subsequent Releases will add
 * Being promoted from an Incubator Project to a Lab Project
 
 Note that there's a [PDF @ Github](https://github.com/OWASP/Docker-Security/blob/master/dist/owasp-docker-security.pdf) which may or
-may not (github is not good as a repo for binaries) reflect the current status. Build instructions are @ [https://github.com/OWASP/Docker-Security#how-to-build-pdf-version](https://github.com/OWASP/Docker-Security#how-to-build-pdf-version).
+may not (github is not good as a repo for binaries) reflect the current draft status. Build instructions are @ [https://github.com/OWASP/Docker-Security#how-to-build-pdf-version](https://github.com/OWASP/Docker-Security#how-to-build-pdf-version).
 
 ## Project Leader
 
