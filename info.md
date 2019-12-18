@@ -1,6 +1,6 @@
 ### Project Information
 
-{:refdef: style="width: 20px; height: 20px"}
+{:refdef: style="width: 40px; height: 40px"}
 ![Incubator Project](/assets/images/common/owasp_level_incubator.svg)
 {: refdef}
 
