@@ -1,6 +1,6 @@
 ### Project Information
 
-[![Incubator Project](/assets/images/common/owasp_level_incubator.svg)]
+![Incubator Project](/assets/images/common/owasp_level_incubator.svg width=20)
 
 ![Tool Project](/assets/images/common/owasp_documentation_project.svg)
 
