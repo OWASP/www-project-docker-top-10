@@ -61,16 +61,6 @@ Subsequent Releases will add
 * Go from Draft to Release
 * Being promoted from an Incubator Project to a Lab Project
 
-## Project Resources
-
-'''Github'''<br />
-*  See [https://github.com/OWASP/Docker-Security Github]
-<br />
-'''Slides'''<br />
-* Dirk Wetter: ([https://www.owasp.org/images/f/fd/Dirk_Wetter_-_Docker_Top10-OWASP_KA.pdf long version, talk in Karlsruhe]), ([https://www.owasp.org/images/7/7e/Dirk_Wetter_-_Docker_Security_GOD2018.pdf short version @ German OWASP Day 2018]),
-* Dirk Wetter, older talks from [https://www.owasp.org/images/1/17/Dirk_Wetter_-_Docker_Security_Brussels.pdf Belgium Chapter Meeting], [https://2018.appsec.eu/presos/DevOps_Docker_201_Security_Dirk-Wetter_AppSecEU2018.pdf OWASP AppSec Europe 2018]
-
-
 ## Project Leader
 
 Dirk Wetter
