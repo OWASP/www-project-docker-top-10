@@ -19,8 +19,7 @@ See [Github](https://github.com/OWASP/Docker-Security)
 
 
 ### Relevant Talks
-
-The core idea is to build a threat model and define measures against the threats. Dirk
+The core idea is to build a threat model and define measures against the previously defined threats. Dirk
 gave some talks related to that, see
 * [Longer version](https://www.owasp.org/images/f/fd/Dirk_Wetter_-_Docker_Top10-OWASP_KA.pdf), talk in Karlsruhe
 * [Shorter version](https://www.owasp.org/images/7/7e/Dirk_Wetter_-_Docker_Security_GOD2018.pdf) @ German OWASP Day 2018
