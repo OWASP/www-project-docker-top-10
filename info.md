@@ -1,18 +1,20 @@
 ### Project Information
 
+![Tool Project](/assets/images/common/owasp_documentation_project.svg)
+[![Builders](/assets/images/common/owasp_builders.svg)](https://www.owasp.org/index.php/Builders)
+[![Defenders](/assets/images/common/owasp_defenders.svg)](https://www.owasp.org/index.php/Defenders)
+
+[![Breakers](/assets/images/common/owasp_breakers.svg)](https://www.owasp.org/index.php/Breakers) (Partly)
+
 <!-- fixme: links to the old wiki! -->
 
 <!--
 * [![Project Level](/assets/images/common/owasp_level_incubator.svg)]
 -->
-* Project Level: Incubator
-* [![Incubator Project](/assets/images/common/owasp_level_incubator.svg)]
-* Project Type: Documentation
-* [![Builders](/assets/images/common/owasp_builders.svg)](https://www.owasp.org/index.php/Builders)
-* [![Defenders](/assets/images/common/owasp_defenders.svg)](https://www.owasp.org/index.php/Defenders)
-* [![Breakers](/assets/images/common/owasp_breakers.svg)](https://www.owasp.org/index.php/Breakers) (Partly)
+Project Level: Incubator
+[![Incubator Project](/assets/images/common/owasp_level_incubator.svg)]
 
-![Tool Project](/assets/images/common/owasp_documentation_project.svg)
+
 
 <!--
 ### Downloads or Social Links
