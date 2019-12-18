@@ -4,7 +4,9 @@
 * Project Type: Documentation
 * [![Builders](/assets/images/common/owasp_builders.svg)](https://www.owasp.org/index.php/Builders)
 * [![Defenders](/assets/images/common/owasp_defenders.svg)](https://www.owasp.org/index.php/Defenders)
-* Partly: [![Breakers](/assets/images/common/owasp_breakers.svg)](https://www.owasp.org/index.php/Breakers)
+* [![Breakers](/assets/images/common/owasp_breakers.svg)](https://www.owasp.org/index.php/Breakers) (Partly)
+
+![Tool Project](/assets/images/common/owasp_documentation_project.svg)
 
 <!--
 ### Downloads or Social Links
@@ -14,6 +16,7 @@
 
 ### Code Repository
 * See [Github](https://github.com/OWASP/Docker-Security)
+
 
 ### Relevant Talks
 
