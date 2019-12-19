@@ -1,21 +1,16 @@
 ### Project Information
 
-{:refdef: style="width: 40px; height: 40px"}
+{:refdef: style="width: 50px; height: 50px"}
 ![Incubator Project](/assets/images/common/owasp_level_incubator.svg)
 {: refdef}
 
-![Tool Project](/assets/images/common/owasp_documentation_project.svg)
+![Documentation Project](/assets/images/common/owasp_documentation_project.svg)
 
-[![Builders](/assets/images/common/owasp_builders.svg)](https://www.owasp.org/index.php/Builders)
-[![Defenders](/assets/images/common/owasp_defenders.svg)](https://www.owasp.org/index.php/Defenders)
-[![Breakers](/assets/images/common/owasp_breakers.svg)](https://www.owasp.org/index.php/Breakers) (Partly)
-
-<!-- fixme: links to the old wiki! -->
-
-<!--
-* [![Project Level](/assets/images/common/owasp_level_incubator.svg)]
--->
-
+[![Breakers](/assets/images/common/owasp_breakers.svg)](/ProjectReviews/lists/classes/index.html#breakers)
+[![Builders](/assets/images/common/owasp_builders.svg)](/ProjectReviews/lists/classes/index.html#builders)
+[![Defenders](/assets/images/common/owasp_defenders.svg)](/ProjectReviews/lists/classes/index.html#defenders) (Partly)
+<!-- attention: Partl;y is ment to be for breakers. But due to the odd linefeed mechanism it needs to be where
+it is now - hoping it works on every device -->
 
 
 <!--
