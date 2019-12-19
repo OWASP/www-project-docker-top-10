@@ -7,8 +7,7 @@
 ![Tool Project](/assets/images/common/owasp_documentation_project.svg)
 
 [![Builders](/assets/images/common/owasp_builders.svg)](https://www.owasp.org/index.php/Builders)
-[![Defenders](/assets/images/common/owasp_defenders.svg)](https://www.owasp.org/index.php/Defenders)
-
+[![Defenders](/assets/images/common/owasp_defenders.svg)](https://www.owasp.org/index.php/Defenders)<br />
 [![Breakers](/assets/images/common/owasp_breakers.svg)](https://www.owasp.org/index.php/Breakers) (Partly)
 
 <!-- fixme: links to the old wiki! -->
