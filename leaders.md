@@ -1,2 +1,3 @@
 ### Leaders
-* [Dirk Wetter]
+
+* [Dirk Wetter](mailto://dirk@owasp.org)
