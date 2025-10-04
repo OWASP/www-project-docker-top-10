@@ -1,0 +1,24 @@
+audience:
+  - breaker
+  - builder
+  - defender
+leaders:
+  - name: Dirk Wetter
+    email: dirk@owasp.org
+    github: drwetter
+level: 2
+name: OWASP Docker Top 10
+pitch: OWASP Docker Top 10
+repositories:
+  - name: www-project-docker-top-10
+    url: https://github.com/OWASP/www-project-docker-top-10
+    description: OWASP Foundation Web Repository
+  - name: Docker-Security
+    url: https://github.com/OWASP/Docker-Security
+    description: Getting a handle on container security
+tags:
+  - Docker
+  - custom-tag-1
+  - custom-tag-2
+type: documentation
+website: https://owasp.org/www-project-docker-top-10
